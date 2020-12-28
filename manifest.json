@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Money Heist Spoiler Blocker",
+  "description": "This extension indescriminately blocks all mentions of Money Heist characters .",
+  "version": "0.1",
+  "author": "Vedanti Uttarwar",
+
+  "browser_action": {
+    "default_icon": {
+      "20" : "images/icon20.png"
+    }
+  },
+  "permissions": [
+    "activeTab"
+   ],
+  "background": {
+    "scripts": ["js/startup.js"],
+    "persistent": false
+  }
+}
